@@ -35,6 +35,10 @@ class Ship():
             self.center -= self.ai_settings.ship_speed_factor
         self.rect.centerx = self.center
 
+    def center_ship(self):
+        #飞船屏幕居中
+        self.center = self.screen_rect.centerx
+
     def blitme(self):
         """指定位置放置飞船"""
         self.screen.blit(self.image,self.rect)
