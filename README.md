@@ -1,0 +1,2 @@
+# VsCodeDaily
+code for fun
